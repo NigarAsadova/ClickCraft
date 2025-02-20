@@ -3,8 +3,7 @@ import Welcome from "../components/Welcome";
 
 const Home = () => {
     return (  
-        <div>
-            <Header />
+        <div className="font-Roboto">
             <Welcome />
         </div>
     );

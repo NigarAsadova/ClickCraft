@@ -1,6 +1,7 @@
 import stars from "../assets/icons/stars.svg"
 import { Link } from "react-router-dom";
 import play from "../assets/icons/play.svg";
+import welcome from "../assets/icons/welcome-bg.svg"
 const Welcome = () => {
     return ( 
         <div className="text-center">
@@ -22,6 +23,7 @@ const Welcome = () => {
                 </div>
                 </Link>
             </div>
+            <div className="flex justify-center relative bottom-6 right-1"><img src={welcome} alt="" /></div>
         </div>
      );
 }

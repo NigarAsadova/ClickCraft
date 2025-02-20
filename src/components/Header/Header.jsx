@@ -3,7 +3,7 @@ import Button from "../Button";
 import Navbar from "./Navbar";
 const Header = () => {
     return ( 
-        <div className="max-w-[1720px] mx-auto pt-7 pb-9">
+        <div className="max-w-[1720px] mx-auto pt-7 pb-9 font-Roboto">
             <div className="flex justify-between items-center">
                 <div>
                     <img src={Logo} alt="Logo" />
