@@ -8,8 +8,9 @@ const Header = () => {
                     <img src={Logo} alt="Logo" />
                 </div>
                 <div></div>
-                <div>
-                    <Button />
+                <div className="flex gap-4">
+                    <Button text="Sign In" to="/home" />
+                    <Button text="Sign Up" to="/home" />
                 </div>
             </div>
         </div>
