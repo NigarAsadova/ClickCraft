@@ -1,7 +1,7 @@
 import SectionTitle from "../SectionTitle";
 import Button from "../Button";
-import star from "../../assets/icons/stars.svg";
 import saly from "../../assets/imgs/Saly-13.svg";
+import HowItWorks from "./HowItWorks";
 const SetUp = () => {
     return ( 
         <div className="max-w-[1520px] mx-auto">
@@ -15,10 +15,7 @@ const SetUp = () => {
                         <img src={saly} alt="saly" />
                     </div>
                     <div className="max-w-[615px]">
-                        <div className="flex items-center gap-3 mb-5">
-                            <div><img src={star} alt="stars" /></div>
-                            <span className="bg-custom-blue-gradient bg-clip-text text-transparent text-base font-medium uppercase tracking-[0.25em] ">How It Works</span>
-                        </div>
+                        <HowItWorks />
                         <h3 className="font-bold text-[44px] leading-[52.8px] bg-custom-white-gradient bg-clip-text text-transparent">Complete Your Profile</h3>
                         <p className="my-6 font-normal text-[26px] text-[#77798F] leading-[41.6px]"> Just share your details, choose a template, and see your personal portfolio magically appear. Confirm or make any changes you like, and  Grab a special link to share your portfolio with everyone. Boost your online presence the easy way!</p>
                         <Button text="Complete Your Profile" to="#" />
