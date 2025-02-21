@@ -1,7 +1,11 @@
+import SectionTitle from "../SectionTitle";
+
 const TopPorts = () => {
-    return ( <div>
-        
-    </div> );
+    return (
+         <div>
+            <SectionTitle text="Top Rated Portfolios" />
+        </div>
+     );
 }
  
 export default TopPorts;
