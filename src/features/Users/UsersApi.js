@@ -5,7 +5,7 @@ export const getUsers = createAsyncThunk(
     "users/getUsers",
     async() =>{
         try{
-            const response = await API.get("/users");  
+            const response = await API.get("users");  
             return response.data;          
         } catch(e) {
             console.log(e);
