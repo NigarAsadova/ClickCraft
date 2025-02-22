@@ -1,4 +1,5 @@
 import Header from "../components/Header/Header";
+import Contact from "../components/Home/Contact";
 import RecentUsers from "../components/Home/RecentUsers";
 import SetUp from "../components/Home/SetUp";
 import TopPorts from "../components/Home/TopPorts";
@@ -11,6 +12,7 @@ const Home = () => {
             <SetUp />
             <TopPorts />
             <RecentUsers />
+            <Contact />
         </div>
     );
 }

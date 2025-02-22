@@ -4,7 +4,7 @@ import { useDispatch, useSelector } from "react-redux";
 import { useEffect } from "react";
 import { getUsers } from "../../features/Users/UsersApi";
 const RecentUsers = () => {
-    const users = useSelector((state) => state.users.users.users);
+    const users = useSelector((state) => state.users.users.users) || [];
     const dispatch = useDispatch();
     useEffect(() => {
         dispatch(getUsers())
