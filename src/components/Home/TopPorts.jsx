@@ -8,7 +8,7 @@ const TopPorts = () => {
          <div className="mt-[135px] max-w-[1520px] mx-auto">
             <SectionTitle title="Top Rated Portfolios" />
             <div className="grid grid-cols-2 mt-[135px] gap-[30px]">
-                <Link to="#">
+                <Link to="#" className=" hover:scale-105 transition-transform duration-300">
                     <div className="border-t border-b-[3px] rounded-[42px] border-[#664DFF] p-[50px] shadow-purple-box-shadow">
                         <div className="max-w-[570px]">
                             <HowItWorks />
@@ -20,7 +20,7 @@ const TopPorts = () => {
                         </div>
                     </div>                
                 </Link>
-                <Link to="#">
+                <Link to="#" className=" hover:scale-105 transition-transform duration-300">
                     <div className="border-t border-b-[3px] rounded-[42px] border-[#664DFF] p-[50px] shadow-purple-box-shadow">
                         <div className="max-w-[570px]">
                             <HowItWorks />
@@ -32,7 +32,7 @@ const TopPorts = () => {
                         </div>
                     </div>                
                 </Link>
-                <Link to="#">
+                <Link to="#" className=" hover:scale-105 transition-transform duration-300">
                     <div className="border-t border-b-[3px] rounded-[42px] border-[#664DFF] p-[50px] shadow-purple-box-shadow">
                         <div className="max-w-[570px]">
                             <HowItWorks />
@@ -44,7 +44,7 @@ const TopPorts = () => {
                         </div>
                     </div>                
                 </Link>
-                <Link to="#">
+                <Link to="#" className=" hover:scale-105 transition-transform duration-300">
                     <div className="border-t border-b-[3px] rounded-[42px] border-[#664DFF] p-[50px] shadow-purple-box-shadow">
                         <div className="max-w-[570px]">
                             <HowItWorks />
