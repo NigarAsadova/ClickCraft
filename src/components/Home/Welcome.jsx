@@ -4,7 +4,7 @@ import play from "../../assets/icons/play.svg";
 import welcome from "../../assets/icons/welcome-bg.svg"
 const Welcome = () => {
     return ( 
-        <div className="text-center">
+        <div className="text-center mt-[107px]">
             <div className="flex gap-3 items-center justify-center">
                 <div><img src={stars} alt="stars" /></div>
                 <span className="bg-custom-blue-gradient bg-clip-text text-transparent font-medium leading-[25.6px] text-base tracking-[0.25em] uppercase">Welcome to Click craft</span>
