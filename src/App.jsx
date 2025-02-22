@@ -5,7 +5,7 @@ import Header from './components/Header/Header';
 import Footer from './components/Footer';
 function App() {
   return (
-    <div className='bg-[#010314]'>
+    <div className='bg-[#010314] px-6'>
     <Router>
       <Header />
       <Routes>
