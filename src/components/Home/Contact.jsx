@@ -9,7 +9,7 @@ import { Link } from "react-router-dom"
 const Contact = () => {
     return ( 
         <div className="border-t border-b-[3px] rounded-[42px] border-[#664DFF] p-[100px] shadow-purple-box-shadow mt-[68px] max-w-[1520px] mx-auto my-[45px]">
-        <div className="flex gap-[78px] items-center justify-end">
+        <div className="flex gap-[78px] items-center justify-end max-lg:flex-col">
             <div className="max-w-[745px] flex justify-start flex-col pb-[13px]">
                 <div>
                     <h3 className="font-bold text-[44px] leading-[52.8px] bg-custom-white-gradient bg-clip-text text-transparent inline">Always Reachable</h3>
