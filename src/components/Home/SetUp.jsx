@@ -4,7 +4,7 @@ import saly from "../../assets/imgs/Saly-13.svg";
 import HowItWorks from "./HowItWorks";
 const SetUp = () => {
     return ( 
-        <div className="max-w-[1520px] mx-auto mt-[135px]">
+        <div className="max-w-[1520px] mx-auto mt-[135px] max-lg:text-center">
             <div className="max-w-[746px] mx-auto">
                 <SectionTitle title="5 minute set-up process" />
                 <p className="font-normal text-2xl text-center text-[#77798F]">Just take <span className="font-bold">5 minutes</span> to fill in some info, choose a killer template, and bam! Your personalized portfolio website is ready.</p>                
