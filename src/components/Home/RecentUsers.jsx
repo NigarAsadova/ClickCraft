@@ -11,7 +11,7 @@ const RecentUsers = () => {
     }, []);
     console.log(users);
     return ( 
-        <div className="max-w-[1520px] mx-auto mt-[135px]">
+        <div className="max-w-[1520px] mx-auto mt-[135px] max-2xl:hidden">
             <SectionTitle title="Recent Users" />
             <div className="border border-[#2A2B3A] py-[25px] mt-5 flex gap-[50px] justify-center">
                 {
