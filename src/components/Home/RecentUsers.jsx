@@ -9,7 +9,6 @@ const RecentUsers = () => {
     useEffect(() => {
         dispatch(getUsers())
     }, []);
-    console.log(users);
     return ( 
         <div className="max-w-[1520px] mx-auto mt-[135px] max-lg:mt-[50px] max-2xl:hidden">
             <SectionTitle title="Recent Users" />
