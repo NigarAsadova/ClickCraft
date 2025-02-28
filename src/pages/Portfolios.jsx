@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
 import template from "../assets/imgs/template.png"
-import favorite from "../assets/icons/favorite.svg"
+import favorite from "../assets/icons/Favorite.svg"
 import eye from "../assets/icons/eye.svg"
 import { useDispatch, useSelector } from "react-redux";
 import { useEffect } from "react";
