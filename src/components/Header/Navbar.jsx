@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { Link } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 import menuIcon from "../../assets/icons/menu-icon.svg";
 import logo from "../../assets/icons/main-logo.svg";
 
@@ -10,17 +10,45 @@ const Navbar = () => {
     <nav className="relative">
       <div className="flex items-center justify-between p-4">
         <ul className="hidden md:flex text-[#77798F] font-normal text-2xl leading-[28.13px] gap-10">
-          <li className="hover:text-[#865BFF] transition-all duration-300">
-            <Link to="/">Home</Link>
+          <li>
+            <NavLink
+              to="/"
+              className={({ isActive }) =>
+                isActive ? "text-[#865BFF] transition-all duration-300" : "hover:text-[#865BFF] transition-all duration-300"
+              }
+            >
+              Home
+            </NavLink>
           </li>
-          <li className="hover:text-[#865BFF] transition-all duration-300">
-            <Link to="/Portfolios">Portfolios</Link>
+          <li>
+            <NavLink
+              to="/Portfolios"
+              className={({ isActive }) =>
+                isActive ? "text-[#865BFF] transition-all duration-300" : "hover:text-[#865BFF] transition-all duration-300"
+              }
+            >
+              Portfolios
+            </NavLink>
           </li>
-          <li className="hover:text-[#865BFF] transition-all duration-300">
-            <Link to="/Community">Community</Link>
+          <li>
+            <NavLink
+              to="/Community"
+              className={({ isActive }) =>
+                isActive ? "text-[#865BFF] transition-all duration-300" : "hover:text-[#865BFF] transition-all duration-300"
+              }
+            >
+              Community
+            </NavLink>
           </li>
-          <li className="hover:text-[#865BFF] transition-all duration-300">
-            <Link to="/About">About Us</Link>
+          <li>
+            <NavLink
+              to="/About"
+              className={({ isActive }) =>
+                isActive ? "text-[#865BFF] transition-all duration-300" : "hover:text-[#865BFF] transition-all duration-300"
+              }
+            >
+              About Us
+            </NavLink>
           </li>
         </ul>
 
@@ -38,7 +66,8 @@ const Navbar = () => {
         className={`fixed top-0 left-0 z-40 w-64 h-screen p-4 overflow-y-auto transition-transform bg-white dark:bg-custom-blue-gradient
           ${isOpen ? "translate-x-0" : "-translate-x-full"}`}
         tabIndex="-1"
-        aria-labelledby="drawer-navigation-label" >
+        aria-labelledby="drawer-navigation-label"
+      >
         <div className="flex items-center justify-between mb-4">
           <h5
             id="drawer-navigation-label"
@@ -69,17 +98,49 @@ const Navbar = () => {
         </div>
         {/* Mobile Navigation Links */}
         <ul className="flex flex-col gap-4 text-black font-normal text-xl">
-          <li className="hover:transition-transform hover:hover:scale-x-95 transition-all duration-300">
-            <Link to="/" onClick={() => setIsOpen(false)}>Home</Link>
+          <li>
+            <NavLink
+              to="/"
+              onClick={() => setIsOpen(false)}
+              className={({ isActive }) =>
+                isActive ? "text-[#865BFF] transition-all duration-300" : "hover:text-[#865BFF] transition-all duration-300"
+              }
+            >
+              Home
+            </NavLink>
           </li>
-          <li className="hover:transition-transform hover:hover:scale-x-95 transition-all duration-300">
-            <Link to="/Portfolios" onClick={() => setIsOpen(false)}>Portfolios</Link>
+          <li>
+            <NavLink
+              to="/Portfolios"
+              onClick={() => setIsOpen(false)}
+              className={({ isActive }) =>
+                isActive ? "text-[#865BFF] transition-all duration-300" : "hover:text-[#865BFF] transition-all duration-300"
+              }
+            >
+              Portfolios
+            </NavLink>
           </li>
-          <li className="hover:transition-transform hover:hover:scale-x-95 transition-all duration-300">
-            <Link to="/Community" onClick={() => setIsOpen(false)}>Community</Link>
+          <li>
+            <NavLink
+              to="/Community"
+              onClick={() => setIsOpen(false)}
+              className={({ isActive }) =>
+                isActive ? "text-[#865BFF] transition-all duration-300" : "hover:text-[#865BFF] transition-all duration-300"
+              }
+            >
+              Community
+            </NavLink>
           </li>
-          <li className="hover:transition-transform hover:hover:scale-x-95 transition-all duration-300">
-            <Link to="/About" onClick={() => setIsOpen(false)}>About Us</Link>
+          <li>
+            <NavLink
+              to="/About"
+              onClick={() => setIsOpen(false)}
+              className={({ isActive }) =>
+                isActive ? "text-[#865BFF] transition-all duration-300" : "hover:text-[#865BFF] transition-all duration-300"
+              }
+            >
+              About Us
+            </NavLink>
           </li>
         </ul>
       </div>
