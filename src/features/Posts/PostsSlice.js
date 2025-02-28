@@ -19,7 +19,7 @@ export const PostsSlice = createSlice({
             })
             .addCase(getPost.fulfilled, (state, action) => {
                 state.isLaoding = false;
-                state.post = action.payload;
+                state.posts = action.payload;
             })
             .addCase(getPost.rejected, (state, action) => {
                 state.isLaoding = false;
@@ -27,3 +27,5 @@ export const PostsSlice = createSlice({
             })
     }
 })
+
+export default PostsSlice.reducer;
