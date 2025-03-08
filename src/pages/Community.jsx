@@ -1,10 +1,11 @@
 import eye from "../assets/icons/Eye.svg"
+import arrow from "../assets/icons/arrow.svg"
 
 const Community = () => {
     return ( 
         <div>
             <div>
-                <div>
+                <div className="flex items-center">
                     <div className="p-5 border-[#664DFF] border-t-2 border-x border-b-4 rounded-[10px] flex flex-col items-">
                         <div className="text-[#77798F] text-xl font-normal">
                             Author of "Python 3.0 for Beginners" and a Full Stack Developer passionate about creating dynamic and user-friendly web experiences.
@@ -17,8 +18,12 @@ const Community = () => {
                             </div>
                         </div>
                     </div>
-                    <div></div>
-                    <div></div>
+                    <div className="ml-1"><img src={arrow} alt="arrow" /></div>
+                    <div>
+                        <div><img src="" alt="" /></div>
+                        <p></p>
+                        <p></p>
+                    </div>
                 </div>
             </div>
         </div>
