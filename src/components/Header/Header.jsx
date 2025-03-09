@@ -12,7 +12,7 @@ const Header = () => {
                     <Navbar />
                 </div>
                 <div className="flex gap-4">
-                    <div className="max-xl:hidden" ><Button text="Sign In" to="/home" /></div>
+                    <div className="max-xl:hidden" ><Button text="Sign In" to="/login" /></div>
                     <div><Button text="Sign Up" to="/home"/></div>  
                 </div>
             </div>

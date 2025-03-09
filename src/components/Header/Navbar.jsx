@@ -22,7 +22,7 @@ const Navbar = () => {
           </li>
           <li>
             <NavLink
-              to="/Portfolios"
+              to="/portfolios"
               className={({ isActive }) =>
                 isActive ? "text-[#865BFF] transition-all duration-300" : "hover:text-[#865BFF] transition-all duration-300"
               }
@@ -32,7 +32,7 @@ const Navbar = () => {
           </li>
           <li>
             <NavLink
-              to="/Community"
+              to="/community"
               className={({ isActive }) =>
                 isActive ? "text-[#865BFF] transition-all duration-300" : "hover:text-[#865BFF] transition-all duration-300"
               }
@@ -42,7 +42,7 @@ const Navbar = () => {
           </li>
           <li>
             <NavLink
-              to="/About"
+              to="/about"
               className={({ isActive }) =>
                 isActive ? "text-[#865BFF] transition-all duration-300" : "hover:text-[#865BFF] transition-all duration-300"
               }
